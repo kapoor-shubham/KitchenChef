@@ -8,20 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		CEAB8D1221CAA07F00437922 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAB8D1121CAA07F00437922 /* AppDelegate.swift */; };
-		CEAB8D1421CAA07F00437922 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAB8D1321CAA07F00437922 /* ViewController.swift */; };
 		CEAB8D1721CAA07F00437922 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEAB8D1521CAA07F00437922 /* Main.storyboard */; };
 		CEAB8D1921CAA08400437922 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEAB8D1821CAA08400437922 /* Assets.xcassets */; };
 		CEAB8D1C21CAA08400437922 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEAB8D1A21CAA08400437922 /* LaunchScreen.storyboard */; };
+		CEAB8D2421CAA9B100437922 /* DashboardTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAB8D2321CAA9B100437922 /* DashboardTableViewCell.swift */; };
+		CEAB8D2621CAA9C200437922 /* DashboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAB8D2521CAA9C200437922 /* DashboardViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		CEAB8D0E21CAA07F00437922 /* KitchenShef.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KitchenShef.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEAB8D1121CAA07F00437922 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		CEAB8D1321CAA07F00437922 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		CEAB8D1621CAA07F00437922 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CEAB8D1821CAA08400437922 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CEAB8D1B21CAA08400437922 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CEAB8D1D21CAA08400437922 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEAB8D2321CAA9B100437922 /* DashboardTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardTableViewCell.swift; sourceTree = "<group>"; };
+		CEAB8D2521CAA9C200437922 /* DashboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,13 +57,30 @@
 			isa = PBXGroup;
 			children = (
 				CEAB8D1121CAA07F00437922 /* AppDelegate.swift */,
-				CEAB8D1321CAA07F00437922 /* ViewController.swift */,
+				CEAB8D2721CAABF700437922 /* Controllers */,
 				CEAB8D1521CAA07F00437922 /* Main.storyboard */,
 				CEAB8D1821CAA08400437922 /* Assets.xcassets */,
 				CEAB8D1A21CAA08400437922 /* LaunchScreen.storyboard */,
 				CEAB8D1D21CAA08400437922 /* Info.plist */,
 			);
 			path = KitchenShef;
+			sourceTree = "<group>";
+		};
+		CEAB8D2721CAABF700437922 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				CEAB8D2821CAAC0700437922 /* Dashboard */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		CEAB8D2821CAAC0700437922 /* Dashboard */ = {
+			isa = PBXGroup;
+			children = (
+				CEAB8D2321CAA9B100437922 /* DashboardTableViewCell.swift */,
+				CEAB8D2521CAA9C200437922 /* DashboardViewController.swift */,
+			);
+			path = Dashboard;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -135,8 +154,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CEAB8D1421CAA07F00437922 /* ViewController.swift in Sources */,
+				CEAB8D2421CAA9B100437922 /* DashboardTableViewCell.swift in Sources */,
 				CEAB8D1221CAA07F00437922 /* AppDelegate.swift in Sources */,
+				CEAB8D2621CAA9C200437922 /* DashboardViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
