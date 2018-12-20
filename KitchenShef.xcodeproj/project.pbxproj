@@ -7,15 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		81C8BAC2F1FC12C75E85A91F /* Pods_KitchenShef.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B910B55A67BEB42739B9FDE /* Pods_KitchenShef.framework */; };
 		CEAB8D1221CAA07F00437922 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAB8D1121CAA07F00437922 /* AppDelegate.swift */; };
 		CEAB8D1721CAA07F00437922 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEAB8D1521CAA07F00437922 /* Main.storyboard */; };
 		CEAB8D1921CAA08400437922 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEAB8D1821CAA08400437922 /* Assets.xcassets */; };
 		CEAB8D1C21CAA08400437922 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEAB8D1A21CAA08400437922 /* LaunchScreen.storyboard */; };
 		CEAB8D2421CAA9B100437922 /* DashboardTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAB8D2321CAA9B100437922 /* DashboardTableViewCell.swift */; };
 		CEAB8D2621CAA9C200437922 /* DashboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAB8D2521CAA9C200437922 /* DashboardViewController.swift */; };
+		CEAB8D2A21CB17EC00437922 /* DishDescriptionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAB8D2921CB17EC00437922 /* DishDescriptionViewController.swift */; };
+		CEAB8D2C21CB274A00437922 /* GetRecipeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAB8D2B21CB274A00437922 /* GetRecipeViewController.swift */; };
+		CEAB8D2E21CB2EBE00437922 /* DishDescriptionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAB8D2D21CB2EBD00437922 /* DishDescriptionTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		225C37EACB68F2AD3FC59D85 /* Pods-KitchenShef.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KitchenShef.release.xcconfig"; path = "Pods/Target Support Files/Pods-KitchenShef/Pods-KitchenShef.release.xcconfig"; sourceTree = "<group>"; };
+		8B910B55A67BEB42739B9FDE /* Pods_KitchenShef.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KitchenShef.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2D7D689181F78E3D4FB52A5 /* Pods-KitchenShef.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KitchenShef.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KitchenShef/Pods-KitchenShef.debug.xcconfig"; sourceTree = "<group>"; };
 		CEAB8D0E21CAA07F00437922 /* KitchenShef.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KitchenShef.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEAB8D1121CAA07F00437922 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CEAB8D1621CAA07F00437922 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -24,6 +31,9 @@
 		CEAB8D1D21CAA08400437922 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CEAB8D2321CAA9B100437922 /* DashboardTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardTableViewCell.swift; sourceTree = "<group>"; };
 		CEAB8D2521CAA9C200437922 /* DashboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardViewController.swift; sourceTree = "<group>"; };
+		CEAB8D2921CB17EC00437922 /* DishDescriptionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DishDescriptionViewController.swift; sourceTree = "<group>"; };
+		CEAB8D2B21CB274A00437922 /* GetRecipeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetRecipeViewController.swift; sourceTree = "<group>"; };
+		CEAB8D2D21CB2EBD00437922 /* DishDescriptionTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DishDescriptionTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +41,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				81C8BAC2F1FC12C75E85A91F /* Pods_KitchenShef.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		04EDC69D439A731A38DFA879 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A2D7D689181F78E3D4FB52A5 /* Pods-KitchenShef.debug.xcconfig */,
+				225C37EACB68F2AD3FC59D85 /* Pods-KitchenShef.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		3F75A448B1A773165CE83AB0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8B910B55A67BEB42739B9FDE /* Pods_KitchenShef.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		CEAB8D0521CAA07F00437922 = {
 			isa = PBXGroup;
 			children = (
 				CEAB8D1021CAA07F00437922 /* KitchenShef */,
 				CEAB8D0F21CAA07F00437922 /* Products */,
+				04EDC69D439A731A38DFA879 /* Pods */,
+				3F75A448B1A773165CE83AB0 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -70,6 +100,8 @@
 			isa = PBXGroup;
 			children = (
 				CEAB8D2821CAAC0700437922 /* Dashboard */,
+				CEAB8D2F21CB4BE900437922 /* Dish Description */,
+				CEAB8D3021CB4BFE00437922 /* Get Recipe */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -83,6 +115,23 @@
 			path = Dashboard;
 			sourceTree = "<group>";
 		};
+		CEAB8D2F21CB4BE900437922 /* Dish Description */ = {
+			isa = PBXGroup;
+			children = (
+				CEAB8D2921CB17EC00437922 /* DishDescriptionViewController.swift */,
+				CEAB8D2D21CB2EBD00437922 /* DishDescriptionTableViewCell.swift */,
+			);
+			path = "Dish Description";
+			sourceTree = "<group>";
+		};
+		CEAB8D3021CB4BFE00437922 /* Get Recipe */ = {
+			isa = PBXGroup;
+			children = (
+				CEAB8D2B21CB274A00437922 /* GetRecipeViewController.swift */,
+			);
+			path = "Get Recipe";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -90,9 +139,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CEAB8D2021CAA08400437922 /* Build configuration list for PBXNativeTarget "KitchenShef" */;
 			buildPhases = (
+				35BB847CB79374F2CE9910EF /* [CP] Check Pods Manifest.lock */,
 				CEAB8D0A21CAA07F00437922 /* Sources */,
 				CEAB8D0B21CAA07F00437922 /* Frameworks */,
 				CEAB8D0C21CAA07F00437922 /* Resources */,
+				834D2E768710A22287DF1BA7 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -149,14 +200,56 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		35BB847CB79374F2CE9910EF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KitchenShef-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		834D2E768710A22287DF1BA7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-KitchenShef/Pods-KitchenShef-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/MBProgressHUD/MBProgressHUD.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MBProgressHUD.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KitchenShef/Pods-KitchenShef-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		CEAB8D0A21CAA07F00437922 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				CEAB8D2421CAA9B100437922 /* DashboardTableViewCell.swift in Sources */,
+				CEAB8D2A21CB17EC00437922 /* DishDescriptionViewController.swift in Sources */,
 				CEAB8D1221CAA07F00437922 /* AppDelegate.swift in Sources */,
 				CEAB8D2621CAA9C200437922 /* DashboardViewController.swift in Sources */,
+				CEAB8D2E21CB2EBE00437922 /* DishDescriptionTableViewCell.swift in Sources */,
+				CEAB8D2C21CB274A00437922 /* GetRecipeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -300,6 +393,7 @@
 		};
 		CEAB8D2121CAA08400437922 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A2D7D689181F78E3D4FB52A5 /* Pods-KitchenShef.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -317,6 +411,7 @@
 		};
 		CEAB8D2221CAA08400437922 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 225C37EACB68F2AD3FC59D85 /* Pods-KitchenShef.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
