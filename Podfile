@@ -7,6 +7,6 @@ target 'KitchenShef' do
 
   # Pods for KitchenShef
 
-pod 'MBProgressHUD'
+pod 'MBProgressHUD', '~> 1.1.0'
 
 end
